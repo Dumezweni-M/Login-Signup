@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./rohit-choudhari-pE37k0imUDs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:200% 300%;
+}
+
+#logoWeb{
+    color: rgb(152, 85, 214);
+    font-family: "Foldit", sans-serif;
+}
+#logoMob{
+    color: rgb(152, 85, 214);
+    font-family: "Foldit", sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    left: 1px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    border-top: 1px solid rgb(206, 204, 204);
+    z-index: 3;
+}
+
+.burgerList {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    right: 0%;
+    border: 1px solid rgb(196, 195, 195);
+    transform: translateY(52px);
+}
+
+.hidden {
+    display: none;
+}
+
+.f{
+    border: 1px solid rgb(203, 199, 199);
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 100vw;
+    
+    margin: 0;
+    padding: 0%;
+}
+
+.loginWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: rgb(255, 255, 255, 0.95);
+    border-radius: 5px;
+    padding: 2rem 4rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    font-weight: 900;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome{
+    text-align: center;
+    font-family: "Foldit", sans-serif;
+    font-size: 2.5rem;
+}
+
+form input{
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border-color: rgb(208, 96, 233);
+    width: 110%;
+
+}
+
+.loginBtn{
+    background-color: rgb(0, 0, 0);
+    border-radius:5px;
+    border: 1px solid rgb(174, 172, 172);
+    padding: 0.2rem 1.6rem;
+    margin: 0.3rem;
+    cursor: pointer;
+    color: aliceblue;
+}
+.loginBtn:hover{
+    background-color: rgb(197, 153, 239);
+    color: black;
+    transition: 350ms;
+}
+
+.assist{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.assist h5{
+    margin: 1rem;
+    color: grey;
+    cursor: pointer;
+}
+
+.assist h5:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 250ms;
+}
+
+.disclaimer{
+    display: flex;
+    flex-wrap: wrap;
+}
