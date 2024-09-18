@@ -1,0 +1,19 @@
+{
+  "name": "login-signup",
+  "version": "1.0.0",
+  "description": "![Screenshot (874)](https://github.com/user-attachments/assets/9ecc7822-e15a-49fd-aa8e-49b24f2ddcf1)\r Image credits : Cash Macanaya | Rohit Choudhari",
+  "main": "script.js",
+  "scripts": {
+    "serverStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5"
+  }
+}
