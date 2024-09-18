@@ -59,6 +59,20 @@ body{
     padding: 0%;
 }
 
+.titleWrap{
+    position: static;
+    display: flex;
+    border: 1px solid;
+    width: fit-content;
+    margin: 5rem;
+    z-index: 2;
+}
+#title{
+    scale: 150%;
+    font-family: "Foldit", sans-serif;
+    
+}
+
 
 .loginWrap{
     display: flex;
